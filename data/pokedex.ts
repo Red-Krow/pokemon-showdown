@@ -17728,8 +17728,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		abilities: {0: "Shield Dust", H: "Run Away"},
 		heightm: 0.3,
 		weightkg: 2.9,
-		color: "Green",
-		evos: ["Metapod"],
+		color: "Yellow",
 		eggGroups: ["Bug"],
 	},
 	micomon: {
