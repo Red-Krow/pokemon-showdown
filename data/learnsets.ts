@@ -84409,7 +84409,7 @@ export const Learnsets: { [speciesid: string]: LearnsetData; } = {
 			headbutt: ["4T"],
 			hiddenpower: ["7M", "6M", "5M", "4M", "3M"],
 			hyperbeam: ["7M", "6M", "5M", "4M", "3M"],
-			incinerate: ["6M", "5M"],
+			muddywater: ["8L1"],
 			ironhead: ["7T", "6T", "5T", "4T"],
 			magnitude: ["7L12", "6L1", "5L1", "4L1", "3L1"],
 			mimic: ["3T"],
