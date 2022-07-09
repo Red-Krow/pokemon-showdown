@@ -203,7 +203,7 @@ export const Tags: {[id: string]: TagData} = {
 	},
 	pkf: {
 		name: "PKF",
-		speciesFilter: species => species.tier === 'PKF' || species.tier === '(PKF)',
+		speciesFilter: species => species.tier === 'PKF',
 	},
 
 	// Doubles tiers
