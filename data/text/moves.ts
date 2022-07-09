@@ -6854,4 +6854,34 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "Nearly always goes first. Always crits.",
 		},
 	},
+	darkthunder: {
+		name: "Dark Thunder",
+		desc: "Same effect as Double Kick",
+		shortDesc: "Same effect as Double Kick",
+	},
+	midelepower: {
+		name: "Midele Power",
+		desc: "Has +2 priority. Raises all of the user's stats except evasiveness and accuracy. Can hit through Protect and Detect",
+		shortDesc: "Always goes first. Raises user's stats. Bypasses protect",
+	},
+	brutalball: {
+		name: "Brutal Ball",
+		desc: "20% chance to burn, paralyze or freeze the opponent",
+		shortDesc: "Same effect as Triattack"
+	},
+	monadoPower: {
+		name: "Monado Power",
+		desc: "Same mechanics as Hidden Power",
+		shortDesc: "Same mechanics as Hidden Power"
+	},
+	holareina: {
+		name: "Hola Reina",
+		desc: "Can hit through Protect and Detect",
+		shortDesc: "Bypasses Protect"
+	},
+	seismicpunch: {
+		name: "Seismic Punch",
+		desc: "No additional effect",
+		shortDesc: "No additional effect"
+	}
 };
