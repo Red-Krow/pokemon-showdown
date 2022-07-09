@@ -19808,7 +19808,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		num: -903,
 		accuracy: 100,
 		basePower: 100,
-		category: "Special",
+		category: "Physical",
 		name: "Monado Power",
 		pp: 15,
 		isNonstandard: "PKF",

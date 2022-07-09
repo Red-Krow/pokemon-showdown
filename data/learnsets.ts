@@ -83100,6 +83100,10 @@ export const Learnsets: { [speciesid: string]: LearnsetData; } = {
 	// MODIFICADO PARA PKFABRICA
 	wintass: {
 		learnset: {
+			mudshot: ["8L1"],
+			weatherball: ["8L1"],
+			tailglow: ["8L1"],
+			seismicpunch: ["8L1"],
 			cometpunch: ["6L1","8L1"],
 			focusenergy: ["6L1","8L1"],
 			astonish: ["6L6","8L6"],
@@ -84268,6 +84272,9 @@ export const Learnsets: { [speciesid: string]: LearnsetData; } = {
 	},
 	catermanocaterpie: {
 		learnset: {
+			tackle: ["8L1"],
+			stringshot: ["8L1"],
+			rage: ["8L1"],
 	   		leer: ["8L5"],
 			harden: ["8L7"],
 			lick: ["8L15"],
@@ -84281,6 +84288,8 @@ export const Learnsets: { [speciesid: string]: LearnsetData; } = {
 	},
 	micomon: {
 		learnset: {
+			transform: ["8L1"],
+			splash: ["8L1"],
 			teleport: ["8L6"],
 			metronome: ["8L8"],
 			toxic: ["8L10"],

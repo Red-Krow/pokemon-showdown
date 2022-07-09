@@ -201,6 +201,10 @@ export const Tags: {[id: string]: TagData} = {
 			'Slowking-Galar', 'Thundurus', 'Thundurus-Therian', 'Venusaur-Mega', 'Xurkitree', 'Zapdos-Galar',
 		].includes(species.name),
 	},
+	pkf: {
+		name: "PKF",
+		speciesFilter: species => species.tier === 'PKF' || species.tier === '(PKF)',
+	},
 
 	// Doubles tiers
 	// -------------
@@ -246,12 +250,6 @@ export const Tags: {[id: string]: TagData} = {
 		name: "CAP",
 		speciesFilter: thing => thing.isNonstandard === 'CAP',
 	},
-	// MODIFICADO PARA PKFABRICA
-	pkf: {
-		name: "PKF",
-		speciesFilter: thing => thing.isNonstandard === 'PKF',
-	},
-	// MODIFICADO PARA PKFABRICA
 	custom: {
 		name: "Custom",
 		genericFilter: thing => thing.isNonstandard === 'Custom',
