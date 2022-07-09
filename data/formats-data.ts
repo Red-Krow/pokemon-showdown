@@ -6637,7 +6637,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "PKF",
 	  tier: "PKF",
 	},
-	toxlimetierra: {
+	toxlime: {
 		randomBattleMoves: ["stealthrock", "curse", "slackoff", "lowkick", "earthpower", "earthquake", "flamethrower", "thunderbolt", "sludgewave"],
 	   isNonstandard: "PKF",
 	  tier: "PKF",
