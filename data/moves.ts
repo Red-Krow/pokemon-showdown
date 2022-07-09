@@ -19757,7 +19757,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 70,
 		category: "Special",
 		name: "Midele Power",
-		pp: 8,
+		pp: 5,
 		priority: 2,
 		flags: {mirror: 1},
 		secondary: {
