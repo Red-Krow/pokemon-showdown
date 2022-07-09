@@ -83102,7 +83102,6 @@ export const Learnsets: { [speciesid: string]: LearnsetData; } = {
 		learnset: {
 			mudshot: ["8L1"],
 			weatherball: ["8L1"],
-			tailglow: ["8L1"],
 			seismicpunch: ["8L1"],
 			cometpunch: ["6L1","8L1"],
 			focusenergy: ["6L1","8L1"],
@@ -83565,7 +83564,7 @@ export const Learnsets: { [speciesid: string]: LearnsetData; } = {
 			swordsdance: ["6M","8M"]
 		}
 	},
-	toxlimetierra: {
+	toxlime: {
 		learnset: {
 			scratch: ["6L1","8L1"],
 			growl: ["6L1","8L1"],
