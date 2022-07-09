@@ -1585,6 +1585,7 @@ export class GlobalRoomState {
 		}
 	}
 	startLockdown(err: Error | null = null, slow = false) {
+		return;
 		if (this.lockdown && err) return;
 		const devRoom = Rooms.get('development');
 		// @ts-ignore
