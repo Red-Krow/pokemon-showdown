@@ -3895,7 +3895,7 @@ export const Formats: FormatList = [
 	},
 // MODIFICADO PARA POKEFABRICA
 	{
-		name: "[Gen 8] POKEFABRICA OU",
+		name: "[Gen 8] National Dex POKEFABRICA OU",
 		section: "PxP Metas",
 		mod: 'gen8',
 		ruleset: ['[Gen 8] National Dex','+PKF'],
