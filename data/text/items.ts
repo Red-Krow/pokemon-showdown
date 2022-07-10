@@ -1144,7 +1144,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	nanabberry: {
 		name: "Nanab Berry",
-		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+		desc: "If holder is a Tropius, it raises atk and spe by 1 stage. Can't be eaten.",
 	},
 	nestball: {
 		name: "Nest Ball",

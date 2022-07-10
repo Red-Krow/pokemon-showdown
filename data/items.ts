@@ -3622,6 +3622,18 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 166,
 		gen: 3,
 		isNonstandard: "Past",
+		onModifyAtkPriority:1,
+		onModifyAtk(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Tropius') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpe(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Tropius') {
+				return this.chainModify(1.5);
+			}
+		},
+		itemUser: ['Tropius']
 	},
 	nestball: {
 		name: "Nest Ball",
@@ -7372,8 +7384,8 @@ export const Items: {[itemid: string]: ItemData} = {
 		desc: "If holder is a kantonian Persian, it will always land critical hits",
 		onModifyCritRatioPriority:1,
 		onModifyCritRatio(critRatio, user) {
-			if (user.baseSpecies.baseSpecies === "Persian") {
-				return critRatio + 2;
+			if (user.baseSpecies.name === "Persian") {
+				return critRatio + 3;
 			}
 		},
 		itemUser: ['Persian']
