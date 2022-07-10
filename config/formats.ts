@@ -3933,6 +3933,40 @@ export const Formats: FormatList = [
 			"Seismic Punch"
 		]
 	},
+	{
+		name: "[Gen 8] National Dex PKF Random",
+		section: "PxP Metas",
+		mod: 'gen8',
+		ruleset: ['[Gen 8] National Dex'],
+		team: 'random',
+		unbanlist: [
+			"Prinpawn",
+			"Coureen",
+			"Kincurs",
+			"Posord",
+			"Toxlime",
+			"Toxlime-Agua",
+			"Toxlime-Electrico",
+			"Wintass",
+			"Prabbit",
+			"Strancloud",
+			"Strancloud-Mega",
+			"Dark Pikachu",
+			"Honedge Monado",
+			"Armored Mewtwo",
+			"Catermano Caterpie",
+			"Fancy Probopass",
+			"Lucky Camerupt-Mega",
+			"Lucky Camerupt",
+			"Micomon",
+			"Dark Thunder",
+			"Midele Power",
+			"Brutal Ball",
+			"Monado Power",
+			"Hola Reina",
+			"Seismic Punch"
+		]
+	},
 	/*{
 		name: "POKEFABRICA UBER",
 		section: "PxP Metas",
