@@ -2397,6 +2397,8 @@ export class RandomTeams {
 
 			// Adjust rate for species with multiple sets
 			// TODO: investigate automating this by searching for Pokémon with multiple sets
+			if(species.isNonstandard !== 'PKF' && this.randomChance(49, 50)) continue;
+
 			switch (species.baseSpecies) {
 			case 'Arceus': case 'Silvally':
 				if (this.randomChance(8, 9) && !isMonotype) continue;
