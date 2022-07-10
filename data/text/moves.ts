@@ -6876,8 +6876,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	holareina: {
 		name: "Hola Reina",
-		desc: "Can hit through Protect and Detect",
-		shortDesc: "Bypasses Protect"
+		desc: "Deals damage to the target equal to the user's level. Can hit through protection moves such as Protect and Detect",
+		shortDesc: "Does damage equal to the user's level. Bypasses Protect"
 	},
 	seismicpunch: {
 		name: "Seismic Punch",

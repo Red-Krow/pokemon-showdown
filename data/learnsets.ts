@@ -84309,7 +84309,6 @@ export const Learnsets: { [speciesid: string]: LearnsetData; } = {
 	},
 	fancyprobopass: {
 		learnset: {
-			midelepower: ["8L1"],
 			allyswitch: ["7T"],
 			ancientpower: ["4T"],
 			attract: ["7M", "6M", "5M", "4M"],
