@@ -3621,7 +3621,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		onEat: false,
 		num: 166,
 		gen: 3,
-		isNonstandard: "Past",
 		onModifyAtkPriority:1,
 		onModifyAtk(_, pokemon) {
 			if (pokemon.baseSpecies.baseSpecies === 'Tropius') {
