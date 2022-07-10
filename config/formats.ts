@@ -3895,15 +3895,42 @@ export const Formats: FormatList = [
 	},
 // MODIFICADO PARA POKEFABRICA
 	{
-		name: "[Gen 8] National Dex POKEFABRICA OU",
+		name: "[Gen 8] POKEFABRICA OU",
 		section: "PxP Metas",
 		mod: 'gen8',
-		ruleset: ['[Gen 8] National Dex','+PKF'],
+		ruleset: ['[Gen 8] National Dex'],
 		banlist: [
 			'Prinpawn + Shadow Tag + Transform',
 			'Prinpawn + Shadow Tag + Memento',
 			'Prinpawn + Shadow Tag + Final Gambit',
 			'Prinpawn + Shadow Tag + Rapid Spin'
+		],
+		unbanlist: [
+			"Prinpawn",
+			"Coureen",
+			"Kincurs",
+			"Posord",
+			"Toxlime",
+			"Toxlime-Agua",
+			"Toxlime-Electrico",
+			"Wintass",
+			"Prabbit",
+			"Strancloud",
+			"Strancloud-Mega",
+			"Dark Pikachu",
+			"Honedge Monado",
+			"Armored Mewtwo",
+			"Catermano Caterpie",
+			"Fancy Probopass",
+			"Lucky Camerupt-Mega",
+			"Lucky Camerupt",
+			"Micomon",
+			"Dark Thunder",
+			"Midele Power",
+			"Brutal Ball",
+			"Monado Power",
+			"Hola Reina",
+			"Seismic Punch"
 		]
 	},
 	/*{
