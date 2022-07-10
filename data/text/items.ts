@@ -2344,7 +2344,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 
 	// MIDELE
-	heartScale : {
+	heartscale : {
 		name: "Heart Scale",
 		desc: "If holder is a Luvdisc, it raises def, spA and spD by 2 stages",
 	},

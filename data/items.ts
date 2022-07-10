@@ -7183,7 +7183,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		desc: "If holder is a Lucky Camerupt, this item allows it to Mega Evolve in battle."
 	},
-	heartScale : {
+	heartscale : {
 		name: "Heart Scale",
 		spritenum: 1001,
 		gen: 1,
