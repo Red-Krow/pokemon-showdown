@@ -3906,6 +3906,7 @@ export const Formats: FormatList = [
 			'Prinpawn + Shadow Tag + Rapid Spin'
 		],
 		unbanlist: [
+			"Floette-Eternal",
 			"Prinpawn",
 			"Coureen",
 			"Kincurs",
@@ -3940,6 +3941,7 @@ export const Formats: FormatList = [
 		ruleset: ['[Gen 8] National Dex'],
 		team: 'random',
 		unbanlist: [
+			"Floette-Eternal",
 			"Prinpawn",
 			"Coureen",
 			"Kincurs",

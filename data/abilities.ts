@@ -1144,7 +1144,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				if (pokemon.species.id !== 'castform') forme = 'Castform';
 				break;
 			}
+
 			if (pokemon.isActive && forme) {
+				this.boost({spa: 1,spe:1});
 				pokemon.formeChange(forme, this.effect, false, '[msg]');
 			}
 		},

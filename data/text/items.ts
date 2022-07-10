@@ -959,9 +959,9 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	luckypunch: {
 		name: "Lucky Punch",
-		desc: "If held by a Chansey, its critical hit ratio is raised by 2 stages.",
+		desc: "If held by a Ledian or Ledyba, its critical hit ratio, attack and special attack are raised by 2 stages.",
 		gen2: {
-			desc: "If held by a Chansey, its critical hit ratio is always at stage 2. (25% crit rate)",
+			desc: "If held by a Ledian, its critical hit ratio is always at stage 2. (25% crit rate)",
 		},
 	},
 	lumberry: {
@@ -1681,7 +1681,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	stick: {
 		name: "Stick",
-		desc: "If held by a Farfetch’d, its critical hit ratio is raised by 2 stages.",
+		desc: "If held by a Farfetch’d or Sirfetch'd, its critical hit ratio is raised by 2 stages. In the case of Farfetch'd, its attack and speed are also raised by one stage.",
 		gen2: {
 			desc: "If held by a Farfetch’d, its critical hit ratio is always at stage 2. (25% crit rate)",
 		},
@@ -2341,5 +2341,59 @@ export const ItemsText: {[k: string]: ItemText} = {
 	vilevial: {
 		name: "Vile Vial",
 		desc: "If held by a Venomicon, its Poison- and Flying-type attacks have 1.2x power.",
+	},
+
+	// MIDELE
+	heartScale : {
+		name: "Heart Scale",
+		desc: "If holder is a Luvdisc, it raises def, spA and spD by 2 stages",
+	},
+	tinymushroom : {
+		name: "Tiny Mushroom",
+		desc: "If holder is a Paras or Parasect, it raises atk, spA and spe by 1 stage",
+	},
+	bigmushroom : {
+		name: "Big Mushroom",
+		desc: "If holder is a Paras or Parasect, it raises def and spd by 2 stages",
+	},
+	everstone : {
+		name: "Everstone",
+		desc: "If holder is an Eevee, it raises all stats by 1 stage",
+	},
+	yellowflute : {
+		name: "Yellow Flute",
+		desc: "If holder is a Spinda, it raises all stats by 1 stage",
+	},
+	blueflute : {
+		name: "Blue Flute",
+		desc: "If holder is a Delibird, it raises spA and spe by 1 stage",
+	},
+	redflute : {
+		name: "Red flute",
+		desc: "If holder is a Volbeat or Illumise, it raises def, spe and spD by 1 stage",
+	},
+	nugget : {
+		name: "Nugget",
+		desc: "If holder is a kantonian Persian, it will always land critical hits",
+	},
+	pokedoll : {
+		name: "Pokedoll",
+		desc: "If holder is a Delcatty, it raises all sspa, spD and spe by 1 stage",
+	},
+	fluffytail : {
+		name: "Fluffy Tail",
+		desc: "If holder is a Furret, it raises spD by 4 stages",
+	},
+	smokeball : {
+		name: "Smoke Ball",
+		desc: "If holder is a Dustox or Beautifly, it raises spD and spA by 1 stage",
+	},
+	cleansetag : {
+		name: "Cleanse Tag",
+		desc: "If holder is a Chimecho, it raises spD and def by 1 stage",
+	},
+	soothebell : {
+		name: "Soothe Bell",
+		desc: "If holder is a Wigglytuff, it raises spD and def by 1 stage",
 	},
 };

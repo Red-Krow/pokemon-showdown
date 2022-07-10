@@ -2821,8 +2821,9 @@ export const Items: {[itemid: string]: ItemData} = {
 			basePower: 60,
 		},
 		spritenum: 475,
+		onModifyCritRatioPriority: 1,
 		onModifyCritRatio(critRatio, user) {
-			if (["farfetchd", "sirfetchd"].includes(this.toID(user.baseSpecies.baseSpecies))) {
+			if (["Farfetch\u2019d", "Farfetch\u2019d-Galar"].includes(this.toID(user.baseSpecies.baseSpecies))) {
 				return critRatio + 2;
 			}
 		},
@@ -2995,12 +2996,25 @@ export const Items: {[itemid: string]: ItemData} = {
 		fling: {
 			basePower: 40,
 		},
+		onModifyCritRatioPriority: 1,
 		onModifyCritRatio(critRatio, user) {
-			if (user.baseSpecies.name === 'Chansey') {
+			if (['Ledian','Ledyba'].includes(user.baseSpecies.baseSpecies)) {
 				return critRatio + 2;
 			}
 		},
-		itemUser: ["Chansey"],
+		onModifyAtkPriority: 1,
+		onModifyAtk(atk, pokemon) {
+			if (['Ledian','Ledyba'].includes(pokemon.baseSpecies.baseSpecies)) {
+				return this.chainModify(2);
+			}
+		},
+		onModifySpAPriority: 1,
+		onModifySpA(atk, pokemon) {
+			if (['Ledian','Ledyba'].includes(pokemon.baseSpecies.baseSpecies)) {
+				return this.chainModify(2);
+			}
+		},
+		itemUser: ["Ledian",'Ledyba'],
 		num: 256,
 		gen: 2,
 		isNonstandard: "Past",
@@ -5288,6 +5302,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		fling: {
 			basePower: 60,
 		},
+		onModifyAtkPriority: 1,
+		onModifyAtk(atk, pokemon) {
+			if (this.toID(pokemon.baseSpecies.name) === 'farfetchd') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpe(spe, pokemon) {
+			if (this.toID(pokemon.baseSpecies.name) === 'farfetchd') {
+				return this.chainModify(1.5);
+			}
+		},
 		spritenum: 475,
 		onModifyCritRatio(critRatio, user) {
 			if (this.toID(user.baseSpecies.baseSpecies) === 'farfetchd') {
@@ -7132,7 +7157,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		isNonstandard: "CAP",
 	},
 	// MODIFICADO PARA PKFABRICA
-	"strancloudite": {
+	strancloudite: {
 		name: "Strancloudite",
 		spritenum: 935,
 		megaStone: "Strancloud-Mega",
@@ -7145,7 +7170,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		desc: "If holder is a Strancloud, this item allows it to Mega Evolve in battle."
 	},
-	"luckycameruptite": {
+	luckycameruptite: {
 		name: "Luckycameruptite",
 		spritenum: 935,
 		megaStone: "Lucky Camerupt-Mega",
@@ -7157,6 +7182,295 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 935,
 		gen: 6,
 		desc: "If holder is a Lucky Camerupt, this item allows it to Mega Evolve in battle."
-	}
+	},
+	heartScale : {
+		name: "Heart Scale",
+		spritenum: 1001,
+		gen: 1,
+		desc: "If holder is a Luvdisc, it raises def, spA and spD by 2 stages",
+		onModifySpAPriority:1,
+		onModifySpA(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Luvdisc') {
+				return this.chainModify(2);
+			}
+		},
+		onModifySpDPriority:1,
+		onModifySpD(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Luvdisc') {
+				return this.chainModify(2);
+			}
+		},
+		onModifyDefPriority:1,
+		onModifyDef(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Luvdisc') {
+				return this.chainModify(2);
+			}
+		},
+		itemUser: ['Luvdisc']
+	},
+	tinymushroom : {
+		name: "Tiny Mushroom",
+		spritenum: 1002,
+		gen: 1,
+		desc: "If holder is a Paras or Parasect, it raises atk, spA and spe by 1 stage",
+		onModifySpAPriority:1,
+		onModifySpA(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Paras' || pokemon.baseSpecies.baseSpecies === 'Parasect') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpe(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Paras' || pokemon.baseSpecies.baseSpecies === 'Parasect') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifyAtkPriority:1,
+		onModifyAtk(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Paras' || pokemon.baseSpecies.baseSpecies === 'Parasect') {
+				return this.chainModify(1.5);
+			}
+		},
+		itemUser: ['Paras','Parasect']
+	},
+	bigmushroom : {
+		name: "Big Mushroom",
+		spritenum: 1003,
+		gen: 1,
+		desc: "If holder is a Paras or Parasect, it raises def and spd by 2 stages",
+		onModifySpDPriority:1,
+		onModifySpD(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Paras' || pokemon.baseSpecies.baseSpecies === 'Parasect') {
+				return this.chainModify(2);
+			}
+		},
+		onModifyDefPriority:1,
+		onModifyDef(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Paras' || pokemon.baseSpecies.baseSpecies === 'Parasect') {
+				return this.chainModify(2);
+			}
+		},
+		itemUser: ['Paras','Parasect']
+	},
+	everstone : {
+		name: "Everstone",
+		spritenum: 1004,
+		gen: 1,
+		desc: "If holder is an Eevee, it raises all stats by 1 stage",
+		onModifySpDPriority:1,
+		onModifySpD(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Eevee') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifyAtkPriority:1,
+		onModifyAtk(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Eevee') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifyDefPriority:1,
+		onModifyDef(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Eevee') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpe(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Eevee') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority:1,
+		onModifySpA(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Eevee') {
+				return this.chainModify(1.5);
+			}
+		},
+		itemUser: ['Eevee']
+	},
+	yellowflute : {
+		name: "Yellow Flute",
+		spritenum: 1005,
+		gen: 1,
+		desc: "If holder is a Spinda, it raises all stats by 1 stage",
+		onModifySpDPriority:1,
+		onModifySpD(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Spinda') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifyAtkPriority:1,
+		onModifyAtk(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Spinda') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifyDefPriority:1,
+		onModifyDef(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Spinda') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpe(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Spinda') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority:1,
+		onModifySpA(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Spinda') {
+				return this.chainModify(1.5);
+			}
+		},
+		itemUser: ['Spinda']
+	},
+	blueflute : {
+		name: "Blue Flute",
+		spritenum: 1006,
+		gen: 1,
+		desc: "If holder is a Delibird, it raises spA and spe by 1 stage",
+		onModifySpe(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Delibird') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority:1,
+		onModifySpA(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Delibird') {
+				return this.chainModify(1.5);
+			}
+		},
+		itemUser: ['Delibird']
+	},
+	redflute : {
+		name: "Red flute",
+		spritenum: 1007,
+		gen: 1,
+		desc: "If holder is a Volbeat or Illumise, it raises def, spe and spD by 1 stage",
+		onModifySpDPriority:1,
+		onModifySpD(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Volbeat' || pokemon.baseSpecies.baseSpecies === 'Illumise') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifyDefPriority:1,
+		onModifyDef(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Volbeat' || pokemon.baseSpecies.baseSpecies === 'Illumise') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpe(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Volbeat' || pokemon.baseSpecies.baseSpecies === 'Illumise') {
+				return this.chainModify(1.5);
+			}
+		},
+		itemUser: ['Volbeat','Illumise']
+	},
+	nugget : {
+		name: "Nugget",
+		spritenum: 1008,
+		gen: 1,
+		desc: "If holder is a kantonian Persian, it will always land critical hits",
+		onModifyCritRatioPriority:1,
+		onModifyCritRatio(critRatio, user) {
+			if (user.baseSpecies.baseSpecies === "Persian") {
+				return critRatio + 2;
+			}
+		},
+		itemUser: ['Persian']
+	},
+	pokedoll : {
+		name: "Pokedoll",
+		spritenum: 1009,
+		gen: 1,
+		desc: "If holder is a Delcatty, it raises all sspa, spD and spe by 1 stage",
+		onModifySpDPriority:1,
+		onModifySpD(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Delcatty') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority:1,
+		onModifySpA(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Delcatty') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpe(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Delcatty') {
+				return this.chainModify(1.5);
+			}
+		},
+		itemUser: ['Delcatty']
+	},
+	fluffytail : {
+		name: "Fluffy Tail",
+		spritenum: 1010,
+		gen: 1,
+		desc: "If holder is a Furret, it raises spD by 4 stages",
+		onModifySpDPriority:1,
+		onModifySpD(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Furret') {
+				return this.chainModify(3);
+			}
+		},
+		itemUser: ['Furret']
+	},
+	smokeball : {
+		name: "Smoke Ball",
+		spritenum: 1011,
+		gen: 1,
+		desc: "If holder is a Dustox or Beautifly, it raises spD and spA by 1 stage",
+		onModifySpDPriority:1,
+		onModifySpD(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Dustox' || pokemon.baseSpecies.baseSpecies === 'Beautifly') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority:1,
+		onModifySpA(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Dustox' || pokemon.baseSpecies.baseSpecies === 'Beautifly') {
+				return this.chainModify(1.5);
+			}
+		},
+		itemUser: ['Dustox','Beautifly']
+	},
+	cleansetag : {
+		name: "Cleanse Tag",
+		spritenum: 1012,
+		gen: 1,
+		desc: "If holder is a Chimecho, it raises spD and def by 1 stage",
+		onModifySpDPriority:1,
+		onModifySpD(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Chimecho') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifyDefPriority:1,
+		onModifyDef(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Chimecho') {
+				return this.chainModify(1.5);
+			}
+		},
+		itemUser: ['Chimecho']
+	},
+	soothebell : {
+		name: "Soothe Bell",
+		spritenum: 1013,
+		gen: 1,
+		desc: "If holder is a Wigglytuff, it raises spD and def by 1 stage",
+		onModifySpDPriority:1,
+		onModifySpD(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Wigglytuff') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifyDefPriority:1,
+		onModifyDef(_, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Wigglytuff') {
+				return this.chainModify(1.5);
+			}
+		},
+		itemUser: ['Wigglytuff']
+	},
 	// MODIFICADO PARA PKFABRICA
 };

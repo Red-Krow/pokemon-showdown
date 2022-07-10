@@ -6623,10 +6623,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	  tier: "PKF",
 	},
 	coureen: {
-		randomBattleMoves: ["doubleedge", "shadowball", "return", "lovelykiss", "thunderbolt", "hiddenpowerfighting", "energyball", "shadowclaw", "hypervoice", "earthpower"],
-		isNonstandard: "PKF",
-	  tier: "PKF",
-	},
+        randomBattleMoves: ["doubleedge", "shadowball", "return", "lovelykiss", "thunderbolt", "hiddenpowerfighting", "energyball", "shadowclaw", "boomburst", "earthpower"],
+        isNonstandard: "PKF",
+      tier: "PKF",
+    },
 	kincurs: {
 		randomBattleMoves: ["rest", "shadowclaw", "return", "rapidspin", "sleeptalk", "bulkup", "brickbreak", "foulplay"],
 		isNonstandard: "PKF",
@@ -6658,56 +6658,60 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	  tier: "PKF",
 	},
 	strancloud: {
-	  randomBattleMoves: ["hurricane", "thunder", "weatherball", "recover", "voltswitch"],
+		randomBattleMoves: ["hurricane", "thunder", "weatherball", "recover", "voltswitch", "blizzard", "hiddenpowerfire"],
+		  isNonstandard: "PKF",
+		tier: "PKF",
+	  },
+	  strancloudmega: {
 		isNonstandard: "PKF",
-	  tier: "PKF",
-	},
-	strancloudmega: {
-		randomBattleMoves: ["recover", "blizzard", "hurricane", "thunder", "weatherball", "voltswitch", "hiddenpowerfire"],
-	 isNonstandard: "PKF",
-	  tier: "PKF",
-	},
+		 tier: "PKF",
+	   },
+   
 	// MODIFICADO PARA PKFABRICA
 	// MODIFICADO PARA MIDELE EMERALD
-	honedgemonado: {
-		randomBattleMoves: ["shadowball", "monadopower", "doubleedge", "thunderbolt", "ironhead","shadowsneak"],
-		isNonstandard: "PKF",
-		tier: "PKF",
-	},
 	darkpikachu: {
 		randomBattleMoves: ["darkthunder", "midelepower", "holareina", "nastyplot","surf","overheat"],
 		isNonstandard: "PKF",
 		tier: "PKF",
 	},
-	armoredmewtwo: {
-		randomBattleMoves: ["psychic", "brutalball","energyball","nastyplot","psychoboost"],
-		isNonstandard: "PKF",
-		tier: "PKF",
-	},
-	catermanocaterpie: {
-		randomBattleMoves: ["midelepower"],
-		isNonstandard: "PKF",
-		tier: "PKF",
-	},
-	micomon: {
-		randomBattleMoves: ["midelepower"],
-		isNonstandard: "PKF",
-		tier: "PKF",
-	},
-	fancyprobopass: {
-		randomBattleMoves: ["midelepower"],
-		isNonstandard: "PKF",
-		tier: "PKF",
-	},
 	luckycamerupt: {
-		randomBattleMoves: ["stealthrock", "wish", "spikes", "protect", "fleurcannon","scorchingsands","healbell"],
-		  isNonstandard: "PKF",
-		tier: "PKF",
-	  },
+        randomBattleMoves: ["stealthrock", "wish", "spikes", "protect", "fleurcannon","scorchingsands","healbell", "moonblast", "watersprout"],
+          isNonstandard: "PKF",
+        tier: "PKF",
+      },
 	luckycameruptmega: {
-		randomBattleMoves: ["moonblast", "scorchingsands", "flashcannon","watersprout"],
-	isNonstandard: "PKF",
-	tier: "PKF",
+		isNonstandard: "PKF",
+		tier: "PKF",
 	},
+
+	catermanocaterpie: {
+        randomBattleMoves: ["midelepower", "tackle", "lick", "screech"],
+        isNonstandard: "PKF",
+        tier: "PKF",
+    },
+ 
+	micomon: {
+        randomBattleMoves: ["midelepower", "recover", "lovelykiss", "glare", "explosion", "transform", "firespin", "toxic", "metronome"],
+        isNonstandard: "PKF",
+        tier: "PKF",
+    }, 
+  
+	armoredmewtwo: {
+        randomBattleMoves: ["psychic", "brutalball","energyball","nastyplot","psychoboost","flamethrower","recover","calmmind","icebeam"],
+        isNonstandard: "PKF",
+        tier: "PKF",
+    },
+  
+    honedgemonado: {
+        randomBattleMoves: ["extremespeed", "monadopower", "doubleedge", "leafblade", "ironhead","shadowsneak"],
+        isNonstandard: "PKF",
+        tier: "PKF",
+    },
+   
+    fancyprobopass: {
+        randomBattleMoves: ["midelepower", "flashcannon", "powergem", "voltswitch", "stealthrock"],
+        isNonstandard: "PKF",
+        tier: "PKF",
+    },
 	// MODIFICADO PARA MIDELE EMERALD
 };
