@@ -3894,7 +3894,18 @@ export const Formats: FormatList = [
 		ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Desync Clause Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
 	},
 // MODIFICADO PARA POKEFABRICA
-	
+	{
+		name: "[Gen 8] National Dex POKEFABRICA OU",
+		section: "PxP Metas",
+		mod: 'gen8',
+		ruleset: ['[Gen 8] National Dex','+PKF'],
+		banlist: [
+			'Prinpawn + Shadow Tag + Transform',
+			'Prinpawn + Shadow Tag + Memento',
+			'Prinpawn + Shadow Tag + Final Gambit',
+			'Prinpawn + Shadow Tag + Rapid Spin'
+		]
+	},
 	/*{
 		name: "POKEFABRICA UBER",
 		section: "PxP Metas",
