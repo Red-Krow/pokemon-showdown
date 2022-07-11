@@ -3017,7 +3017,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Ledian",'Ledyba'],
 		num: 256,
 		gen: 2,
-		isNonstandard: "Past",
 	},
 	lumberry: {
 		name: "Lum Berry",
