@@ -17756,7 +17756,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		eggGroups: ["Mineral"],
 	},
 	luckycamerupt: {
-		num: 323,
+		num: 1777,
 		name: "Lucky Camerupt",
 		types: ["Fairy", "Ground"],
 		baseStats: {hp: 110, atk: 70, def: 70, spa: 115, spd: 105, spe: 30},
@@ -17767,7 +17767,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		eggGroups: ["Field"]
 	},
 	luckycameruptmega: {
-		num: 323,
+		num: 2777,
 		name: "Lucky Camerupt-Mega",
 		types: ["Fairy", "Ground"],
 		baseStats: {hp: 110, atk: 90, def: 90, spa: 175, spd: 115, spe: 20},
@@ -17779,6 +17779,17 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		baseSpecies: "Lucky Camerupt",
 		forme: "Mega",
 		requiredItem: "Luckycameruptite"
+	},
+	wooloka: {
+		num: 1006,
+		name: "Wooloka",
+		types: ["Normal"],
+		baseStats: {hp: 72, atk: 80, def: 100, spa: 60, spd: 90, spe: 88},
+		abilities: {0: "Fluffy", 1: "Huge Power"},
+		heightm: 2.6,
+		weightkg: 86,
+		color: "White",
+		eggGroups: ["Field"],
 	},
 	// MODIFICADO PARA MIDELE EMERALD
 };

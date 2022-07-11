@@ -6713,5 +6713,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
         isNonstandard: "PKF",
         tier: "PKF",
     },
+	wooloka: {
+        randomBattleMoves: ["bodypress", "milkdrink", "earthquake", "doubleedge", "superpower","cottonguard"],
+        isNonstandard: "PKF",
+        tier: "PKF",
+    },
 	// MODIFICADO PARA MIDELE EMERALD
 };
