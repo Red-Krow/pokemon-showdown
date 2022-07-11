@@ -80,7 +80,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Fire"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 39, atk: 52, def: 43, spa: 60, spd: 50, spe: 65},
-		abilities: {0: "Blaze", 1: "Tough Claws", H: "Solar Power"},
+		abilities: {0: "Blaze", 1: "Tough Claws", H: "Solar Power"}, // MODIFICADO PARA PXP
 		heightm: 0.6,
 		weightkg: 8.5,
 		color: "Red",
@@ -93,7 +93,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Fire"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 58, atk: 64, def: 58, spa: 80, spd: 65, spe: 80},
-		abilities: {0: "Blaze", 1: "Tough Claws", H: "Solar Power"},
+		abilities: {0: "Blaze", 1: "Tough Claws", H: "Solar Power"}, // MODIFICADO PARA PXP
 		heightm: 1.1,
 		weightkg: 19,
 		color: "Red",
@@ -108,7 +108,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Fire", "Flying"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 78, atk: 84, def: 78, spa: 109, spd: 85, spe: 100},
-		abilities: {0: "Blaze", 1: "Tough Claws", H: "Solar Power"},
+		abilities: {0: "Blaze", 1: "Tough Claws", H: "Solar Power"}, // MODIFICADO PARA PXP
 		heightm: 1.7,
 		weightkg: 90.5,
 		color: "Red",
@@ -3272,7 +3272,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Grass"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 45, atk: 49, def: 65, spa: 49, spd: 65, spe: 45},
-		abilities: {0: "Overgrow", 1: "Natural Cure", H: "Leaf Guard"},
+		abilities: {0: "Overgrow", 1: "Natural Cure", H: "Leaf Guard"}, // MODIFICADO PARA PXP
 		heightm: 0.9,
 		weightkg: 6.4,
 		color: "Green",
@@ -3285,7 +3285,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Grass"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 60, atk: 62, def: 80, spa: 63, spd: 80, spe: 60},
-		abilities: {0: "Overgrow", 1: "Natural Cure", H: "Leaf Guard"},
+		abilities: {0: "Overgrow", 1: "Natural Cure", H: "Leaf Guard"}, // MODIFICADO PARA PXP
 		heightm: 1.2,
 		weightkg: 15.8,
 		color: "Green",
@@ -3300,7 +3300,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Grass"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 80, atk: 82, def: 100, spa: 83, spd: 100, spe: 80},
-		abilities: {0: "Overgrow", 1: "Natural Cure", H: "Leaf Guard"},
+		abilities: {0: "Overgrow", 1: "Natural Cure", H: "Leaf Guard"}, // MODIFICADO PARA PXP
 		heightm: 1.8,
 		weightkg: 100.5,
 		color: "Green",
@@ -4776,7 +4776,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Grass"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 40, atk: 45, def: 35, spa: 65, spd: 55, spe: 70},
-		abilities: {0: "Overgrow", 1: "Lightning Rod", H: "Unburden"},
+		abilities: {0: "Overgrow", 1: "Lightning Rod", H: "Unburden"}, // MODIFICADO PARA PXP
 		heightm: 0.5,
 		weightkg: 5,
 		color: "Green",
@@ -4789,7 +4789,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Grass"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 50, atk: 65, def: 45, spa: 85, spd: 65, spe: 95},
-		abilities: {0: "Overgrow", 1: "Lightning Rod", H: "Unburden"},
+		abilities: {0: "Overgrow", 1: "Lightning Rod", H: "Unburden"}, // MODIFICADO PARA PXP
 		heightm: 0.9,
 		weightkg: 21.6,
 		color: "Green",
@@ -4804,7 +4804,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Grass"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 70, atk: 85, def: 65, spa: 105, spd: 85, spe: 120},
-		abilities: {0: "Overgrow", 1: "Lightning Rod", H: "Unburden"},
+		abilities: {0: "Overgrow", 1: "Lightning Rod", H: "Unburden"}, // MODIFICADO PARA PXP
 		heightm: 1.7,
 		weightkg: 52.2,
 		color: "Green",
@@ -4835,7 +4835,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Fire"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 45, atk: 60, def: 40, spa: 70, spd: 50, spe: 45},
-		abilities: {0: "Blaze", 1: "No Guard", H: "Speed Boost"},
+		abilities: {0: "Blaze", 1: "No Guard", H: "Speed Boost"}, // MODIFICADO PARA PXP
 		heightm: 0.4,
 		weightkg: 2.5,
 		color: "Red",
@@ -4848,7 +4848,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Fire", "Fighting"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 60, atk: 85, def: 60, spa: 85, spd: 60, spe: 55},
-		abilities: {0: "Blaze", 1: "No Guard", H: "Speed Boost"},
+		abilities: {0: "Blaze", 1: "No Guard", H: "Speed Boost"}, // MODIFICADO PARA PXP
 		heightm: 0.9,
 		weightkg: 19.5,
 		color: "Red",
@@ -4863,7 +4863,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Fire", "Fighting"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 80, atk: 120, def: 70, spa: 110, spd: 70, spe: 80},
-		abilities: {0: "Blaze", 1: "No Guard", H: "Speed Boost"},
+		abilities: {0: "Blaze", 1: "No Guard", H: "Speed Boost"}, // MODIFICADO PARA PXP
 		heightm: 1.9,
 		weightkg: 52,
 		color: "Red",
@@ -7084,7 +7084,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Water"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 53, atk: 51, def: 53, spa: 61, spd: 56, spe: 40},
-		abilities: {0: "Torrent", 1: "Slush Rush", H: "Defiant"},
+		abilities: {0: "Torrent", 1: "Slush Rush", H: "Defiant"}, // MODIFICADO PARA PXP
 		heightm: 0.4,
 		weightkg: 5.2,
 		color: "Blue",
@@ -7097,7 +7097,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Water"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 64, atk: 66, def: 68, spa: 81, spd: 76, spe: 50},
-		abilities: {0: "Torrent", 1: "Slush Rush", H: "Defiant"},
+		abilities: {0: "Torrent", 1: "Slush Rush", H: "Defiant"}, // MODIFICADO PARA PXP
 		heightm: 0.8,
 		weightkg: 23,
 		color: "Blue",
@@ -7112,7 +7112,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Water", "Steel"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 84, atk: 86, def: 88, spa: 111, spd: 101, spe: 60},
-		abilities: {0: "Torrent", 1: "Slush Rush", H: "Defiant"},
+		abilities: {0: "Torrent", 1: "Slush Rush", H: "Defiant"}, // MODIFICADO PARA PXP
 		heightm: 1.7,
 		weightkg: 84.5,
 		color: "Blue",
@@ -9005,7 +9005,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Grass"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 45, atk: 45, def: 55, spa: 45, spd: 55, spe: 63},
-		abilities: {0: "Overgrow", 1: "Intimidate", H: "Contrary"},
+		abilities: {0: "Overgrow", 1: "Intimidate", H: "Contrary"}, // MODIFICADO PARA PXP
 		heightm: 0.6,
 		weightkg: 8.1,
 		color: "Green",
@@ -9018,7 +9018,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Grass"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 60, atk: 60, def: 75, spa: 60, spd: 75, spe: 83},
-		abilities: {0: "Overgrow", 1: "Intimidate", H: "Contrary"},
+		abilities: {0: "Overgrow", 1: "Intimidate", H: "Contrary"}, // MODIFICADO PARA PXP
 		heightm: 0.8,
 		weightkg: 16,
 		color: "Green",
@@ -9033,7 +9033,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Grass"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 75, atk: 75, def: 95, spa: 75, spd: 95, spe: 113},
-		abilities: {0: "Overgrow", 1: "Intimidate", H: "Contrary"},
+		abilities: {0: "Overgrow", 1: "Intimidate", H: "Contrary"}, // MODIFICADO PARA PXP
 		heightm: 3.3,
 		weightkg: 63,
 		color: "Green",
@@ -11454,7 +11454,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Grass"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 56, atk: 61, def: 65, spa: 48, spd: 45, spe: 38},
-		abilities: {0: "Overgrow", 1: "Iron Barbs", H: "Bulletproof"},
+		abilities: {0: "Overgrow", 1: "Iron Barbs", H: "Bulletproof"}, // MODIFICADO PARA PXP
 		heightm: 0.4,
 		weightkg: 9,
 		color: "Green",
@@ -11467,7 +11467,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Grass"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 61, atk: 78, def: 95, spa: 56, spd: 58, spe: 57},
-		abilities: {0: "Overgrow", 1: "Iron Barbs", H: "Bulletproof"},
+		abilities: {0: "Overgrow", 1: "Iron Barbs", H: "Bulletproof"}, // MODIFICADO PARA PXP
 		heightm: 0.7,
 		weightkg: 29,
 		color: "Green",
@@ -11482,7 +11482,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Grass", "Fighting"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 88, atk: 107, def: 122, spa: 74, spd: 75, spe: 64},
-		abilities: {0: "Overgrow", 1: "Iron Barbs", H: "Bulletproof"},
+		abilities: {0: "Overgrow", 1: "Iron Barbs", H: "Bulletproof"}, // MODIFICADO PARA PXP
 		heightm: 1.6,
 		weightkg: 90,
 		color: "Green",
@@ -12775,7 +12775,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Grass", "Flying"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 68, atk: 55, def: 55, spa: 50, spd: 50, spe: 42},
-		abilities: {0: "Overgrow", 1: "Trace", H: "Long Reach"},
+		abilities: {0: "Overgrow", 1: "Trace", H: "Long Reach"}, // MODIFICADO PARA PXP
 		heightm: 0.3,
 		weightkg: 1.5,
 		color: "Brown",
@@ -12788,7 +12788,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Grass", "Flying"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 78, atk: 75, def: 75, spa: 70, spd: 70, spe: 52},
-		abilities: {0: "Overgrow", 1: "Trace", H: "Long Reach"},
+		abilities: {0: "Overgrow", 1: "Trace", H: "Long Reach"}, // MODIFICADO PARA PXP
 		heightm: 0.7,
 		weightkg: 16,
 		color: "Brown",
@@ -12803,7 +12803,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Grass", "Ghost"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 78, atk: 107, def: 75, spa: 100, spd: 100, spe: 70},
-		abilities: {0: "Overgrow", 1: "Trace", H: "Long Reach"},
+		abilities: {0: "Overgrow", 1: "Trace", H: "Long Reach"}, // MODIFICADO PARA PXP
 		heightm: 1.6,
 		weightkg: 36.6,
 		color: "Brown",
@@ -12877,7 +12877,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Water"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 50, atk: 54, def: 54, spa: 66, spd: 56, spe: 40},
-		abilities: {0: "Torrent", 1: "Cute Charm", H: "Liquid Voice"},
+		abilities: {0: "Torrent", 1: "Cute Charm", H: "Liquid Voice"}, // MODIFICADO PARA PXP
 		heightm: 0.4,
 		weightkg: 7.5,
 		color: "Blue",
@@ -12890,7 +12890,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Water"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 60, atk: 69, def: 69, spa: 91, spd: 81, spe: 50},
-		abilities: {0: "Torrent", 1: "Cute Charm", H: "Liquid Voice"},
+		abilities: {0: "Torrent", 1: "Cute Charm", H: "Liquid Voice"}, // MODIFICADO PARA PXP
 		heightm: 0.6,
 		weightkg: 17.5,
 		color: "Blue",
@@ -12905,7 +12905,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Water", "Fairy"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 80, atk: 74, def: 74, spa: 126, spd: 116, spe: 60},
-		abilities: {0: "Torrent", 1: "Cute Charm", H: "Liquid Voice"},
+		abilities: {0: "Torrent", 1: "Cute Charm", H: "Liquid Voice"}, // MODIFICADO PARA PXP
 		heightm: 1.8,
 		weightkg: 44,
 		color: "Blue",
@@ -14586,7 +14586,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Grass"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 50, atk: 65, def: 50, spa: 40, spd: 40, spe: 65},
-		abilities: {0: "Overgrow", 1: "Punk Rock", H: "Grassy Surge"},
+		abilities: {0: "Overgrow", 1: "Punk Rock", H: "Grassy Surge"}, // MODIFICADO PARA PXP
 		heightm: 0.3,
 		weightkg: 5,
 		color: "Green",
@@ -14599,7 +14599,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Grass"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 70, atk: 85, def: 70, spa: 55, spd: 60, spe: 80},
-		abilities: {0: "Overgrow", 1: "Punk Rock", H: "Grassy Surge"},
+		abilities: {0: "Overgrow", 1: "Punk Rock", H: "Grassy Surge"}, // MODIFICADO PARA PXP
 		heightm: 0.7,
 		weightkg: 14,
 		color: "Green",
@@ -14614,7 +14614,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		types: ["Grass"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 100, atk: 125, def: 90, spa: 60, spd: 70, spe: 85},
-		abilities: {0: "Overgrow", 1: "Punk Rock", H: "Grassy Surge"},
+		abilities: {0: "Overgrow", 1: "Punk Rock", H: "Grassy Surge"}, // MODIFICADO PARA PXP
 		heightm: 2.1,
 		weightkg: 90,
 		color: "Green",
@@ -17666,7 +17666,7 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		eggGroups: ["Undiscovered"],
 		gen: 5,
 	},
-	// MODIFICADO PARA PKFABRICA
+	// MODIFICADO PARA PXP
 	prinpawn: {num: 928, name: "Prinpawn", types: ["Normal", "Ghost"], baseStats: {hp: 60, atk: 60, def: 60, spa: 60, spd: 60, spe: 60}, abilities: {0: "Shadow Tag", H: "Scrappy"}, heightm: 0.8, weightkg: 43, color: "White", evos: ["coureen", "kincurs"], evoLevel: 30, eggGroups: ["Human-Like", "Amorphous"]},
 	coureen: {num: 929, name: "Coureen", types: ["Normal", "Ghost"], gender: "F", baseStats: {hp: 60, atk: 100, def: 45, spa: 100, spd: 45, spe: 120}, abilities: {0: "Moxie", H: "Pixilate"}, heightm: 1.8, weightkg: 68, color: "White", eggGroups: ["Human-Like", "Amorphous"]},
 	kincurs: {num: 930, name: "Kincurs", types: ["Normal", "Ghost"], gender: "M", baseStats: {hp: 150, atk: 75, def: 65, spa: 75, spd: 65, spe: 40}, abilities: {0: "Overcoat", H: "Own Tempo"}, heightm: 1.8, weightkg: 108, color: "White", eggGroups: ["Human-Like", "Amorphous"]},
@@ -17678,8 +17678,6 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 	prabbit: {num: 934, name: "Prabbit", types: ["Psychic", "Dark"], baseStats: {hp: 100, atk: 45, def: 120, spa: 72, spd: 140, spe: 78}, abilities: {0: "Unaware", 1: "Magician"}, heightm: 0.7, weightkg: 22.5, color: "White", eggGroups: ["Human-Like", "Fairy"]},
 	strancloud: {num: 935, name: "Strancloud", types: ["Electric", "Flying"], baseStats: {hp: 95, atk: 69, def: 75, spa: 90, spd: 95, spe: 91}, abilities: {0: "Drizzle"}, heightm: 0.7, weightkg: 22.5, color: "White", eggGroups: ["Amorphous", "Flying"]},
 	strancloudmega: {num: 935, name: "Strancloud-Mega", requiredItem: "Strancloudite", baseSpecies: "Strancloud", forme: "Mega", types: ["Electric", "Ice"], baseStats: {hp: 95, atk: 63, def: 90, spa: 150, spd: 95, spe: 122}, abilities: {0: "Snow Warning"}, heightm: 2.4, weightkg: 155.5, color: "White", eggGroups: ["Amorphous", "Flying"]},
-	// MODIFICADO PARA PKFABRICA
-	// MODIFICADO PARA MIDELE EMERALD
 	honedgemonado: {
 		num: 1000,
 		name: "Honedge Monado",
@@ -17791,5 +17789,5 @@ export const Pokedex: { [speciesid: string]: SpeciesData } = {
 		color: "White",
 		eggGroups: ["Field"],
 	},
-	// MODIFICADO PARA MIDELE EMERALD
+	// MODIFICADO PARA PXP
 };

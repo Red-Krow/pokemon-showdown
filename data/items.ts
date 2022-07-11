@@ -2996,6 +2996,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		fling: {
 			basePower: 40,
 		},
+		// MODIFICADO PARA PXP
 		onModifyCritRatioPriority: 1,
 		onModifyCritRatio(critRatio, user) {
 			if (['Ledian','Ledyba'].includes(user.baseSpecies.baseSpecies)) {
@@ -3015,6 +3016,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			}
 		},
 		itemUser: ["Ledian",'Ledyba'],
+		// MODIFICADO PARA PXP
 		num: 256,
 		gen: 2,
 	},
@@ -3620,6 +3622,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onEat: false,
 		num: 166,
 		gen: 3,
+		// MODIFICADO PARA PXP
 		onModifyAtkPriority:1,
 		onModifyAtk(_, pokemon) {
 			if (pokemon.baseSpecies.baseSpecies === 'Tropius') {
@@ -3632,6 +3635,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			}
 		},
 		itemUser: ['Tropius']
+		// MODIFICADO PARA PXP
 	},
 	nestball: {
 		name: "Nest Ball",
@@ -5312,6 +5316,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		fling: {
 			basePower: 60,
 		},
+		// MODIFICADO PARA PXP
 		onModifyAtkPriority: 1,
 		onModifyAtk(atk, pokemon) {
 			if (this.toID(pokemon.baseSpecies.name) === 'farfetchd') {
@@ -5330,6 +5335,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			}
 		},
 		itemUser: ["Farfetch\u2019d"],
+		// MODIFICADO PARA PXP
 		num: 259,
 		gen: 2,
 		isNonstandard: "Past",
@@ -7166,7 +7172,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 8,
 		isNonstandard: "CAP",
 	},
-	// MODIFICADO PARA PKFABRICA
+	// MODIFICADO PARA PXP
 	strancloudite: {
 		name: "Strancloudite",
 		spritenum: 935,
@@ -7482,5 +7488,5 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		itemUser: ['Wigglytuff']
 	},
-	// MODIFICADO PARA PKFABRICA
+	// MODIFICADO PARA PXP
 };

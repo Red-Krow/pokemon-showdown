@@ -19734,7 +19734,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Electric",
 		contestType: "Cool",
 	},
-	// MODIFICADO PARA MIDELE EMERALD
+	// MODIFICADO PARA PXP
 	darkthunder: {
 		num: -900,
 		accuracy: 100,
@@ -19749,7 +19749,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Electric",
 		contestType: "Cool",
-		isNonstandard: "PKF",
+		isNonstandard: "PXP",
 	},
 	midelepower: {
 		num: -901,
@@ -19775,7 +19775,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Unknown",
 		contestType: "Cool",
-		isNonstandard: "PKF",
+		isNonstandard: "PXP",
 	},
 	brutalball: {
 		num: -902,
@@ -19802,7 +19802,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Dark",
 		contestType: "Cool",
-		isNonstandard: "PKF",
+		isNonstandard: "PXP",
 	},
 	monadopower: {
 		num: -903,
@@ -19811,7 +19811,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		category: "Physical",
 		name: "Monado Power",
 		pp: 15,
-		isNonstandard: "PKF",
+		isNonstandard: "PXP",
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		onModifyType(move, pokemon) {
@@ -19832,7 +19832,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 15,
 		priority: 0,
 		flags: {mirror: 1},
-		isNonstandard: "PKF",
+		isNonstandard: "PXP",
 		secondary: null,
 		target: "normal",
 		type: "Dark",
@@ -19846,12 +19846,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Seismic Punch",
 		pp: 15,
 		priority: 0,
-		isNonstandard: "PKF",
+		isNonstandard: "PXP",
 		flags: {contact: 1, protect: 1, mirror: 1, punch: 1},
 		secondary: null,
 		target: "normal",
 		type: "Fighting",
 		contestType: "Cool",
 	},
-	// MODIFICADO PARA MIDELE EMERALD
+	// MODIFICADO PARA PXP
 };

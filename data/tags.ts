@@ -201,10 +201,12 @@ export const Tags: {[id: string]: TagData} = {
 			'Slowking-Galar', 'Thundurus', 'Thundurus-Therian', 'Venusaur-Mega', 'Xurkitree', 'Zapdos-Galar',
 		].includes(species.name),
 	},
+	// MODIFICADO PARA PXP
 	pkf: {
-		name: "PKF",
-		speciesFilter: species => species.tier === 'PKF',
+		name: "PXP",
+		speciesFilter: species => species.tier === 'PXP',
 	},
+	// MODIFICADO PARA PXP
 
 	// Doubles tiers
 	// -------------

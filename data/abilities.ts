@@ -1146,7 +1146,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 
 			if (pokemon.isActive && forme) {
-				this.boost({spa: 1,spe:1});
+				this.boost({spa: 1,spe:1}); // MODIFICADO PARA PXP
 				pokemon.formeChange(forme, this.effect, false, '[msg]');
 			}
 		},

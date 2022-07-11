@@ -478,7 +478,7 @@ function runDexsearch(target: string, cmd: string, canAll: boolean, message: str
 	const allTiers: {[k: string]: TierTypes.Singles | TierTypes.Other} = Object.assign(Object.create(null), {
 		anythinggoes: 'AG', ag: 'AG',
 		uber: 'Uber', ubers: 'Uber', ou: 'OU',
-		pkf: 'PKF',
+		pkf: 'PXP',
 		uubl: 'UUBL', uu: 'UU',
 		rubl: 'RUBL', ru: 'RU',
 		nubl: 'NUBL', nu: 'NU',

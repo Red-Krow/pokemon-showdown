@@ -1585,41 +1585,7 @@ export class GlobalRoomState {
 		}
 	}
 	startLockdown(err: Error | null = null, slow = false) {
-		return;
-		if (this.lockdown && err) return;
-		const devRoom = Rooms.get('development');
-		// @ts-ignore
-		const stack = (err ? Utils.escapeHTML(err.stack).split(`\n`).slice(0, 2).join(`<br />`) : ``);
-		for (const [id, curRoom] of Rooms.rooms) {
-			if (err) {
-				if (id === 'staff' || id === 'development' || (!devRoom && id === 'lobby')) {
-					curRoom.addRaw(`<div class="broadcast-red"><b>The server needs to restart because of a crash:</b> ${stack}<br />Please restart the server.</div>`);
-					curRoom.addRaw(`<div class="broadcast-red">You will not be able to start new battles until the server restarts.</div>`);
-					curRoom.update();
-				} else {
-					curRoom.addRaw(`<div class="broadcast-red"><b>The server needs to restart because of a crash.</b><br />No new battles can be started until the server is done restarting.</div>`).update();
-				}
-			} else {
-				curRoom.addRaw(`<div class="broadcast-red"><b>The server is restarting soon.</b><br />Please finish your battles quickly. No new battles can be started until the server resets in a few minutes.</div>`).update();
-			}
-			const game = curRoom.game;
-			// @ts-ignore TODO: revisit when game.timer is standardized
-			if (!slow && game && game.timer && typeof game.timer.start === 'function' && !game.ended) {
-				// @ts-ignore
-				game.timer.start();
-				if (curRoom.settings.modchat !== '+') {
-					curRoom.settings.modchat = '+';
-					curRoom.addRaw(`<div class="broadcast-red"><b>Moderated chat was set to +!</b><br />Only users of rank + and higher can talk.</div>`).update();
-				}
-			}
-		}
-		for (const user of Users.users.values()) {
-			user.send(`|pm|&|${user.tempGroup}${user.name}|/raw <div class="broadcast-red"><b>The server is restarting soon.</b><br />Please finish your battles quickly. No new battles can be started until the server resets in a few minutes.</div>`);
-		}
-
-		this.lockdown = true;
-		this.writeNumRooms();
-		this.lastReportedCrash = Date.now();
+		return; // MODIFICADO PARA PXP
 	}
 	automaticKillRequest() {
 		const notifyPlaces: RoomID[] = ['development', 'staff', 'upperstaff'];

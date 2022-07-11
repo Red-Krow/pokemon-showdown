@@ -19,7 +19,7 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 1,
 			Steel: 0,
 			Water: 0,
-			Unknown: 0
+			Unknown: 0 // MODIFICADO PARA PXP
 		},
 		HPivs: {atk: 30, def: 30, spd: 30},
 		HPdvs: {atk: 13, def: 13},
@@ -45,7 +45,7 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 0,
 			Steel: 0,
 			Water: 0,
-			Unknown: 0
+			Unknown: 0 // MODIFICADO PARA PXP
 		},
 		HPivs: {},
 	},
@@ -69,7 +69,7 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 0,
 			Steel: 0,
 			Water: 2,
-			Unknown: 0
+			Unknown: 0 // MODIFICADO PARA PXP
 		},
 		HPivs: {atk: 30},
 		HPdvs: {def: 14},
@@ -95,7 +95,7 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 0,
 			Steel: 2,
 			Water: 0,
-			Unknown: 0
+			Unknown: 0 // MODIFICADO PARA PXP
 		},
 		HPivs: {spa: 30},
 		HPdvs: {atk: 14},
@@ -120,7 +120,7 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 0,
 			Steel: 1,
 			Water: 0,
-			Unknown: 0
+			Unknown: 0 // MODIFICADO PARA PXP
 		},
 	},
 	fighting: {
@@ -143,7 +143,7 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 2,
 			Steel: 0,
 			Water: 0,
-			Unknown: 0
+			Unknown: 0 // MODIFICADO PARA PXP
 		},
 		HPivs: {def: 30, spa: 30, spd: 30, spe: 30},
 		HPdvs: {atk: 12, def: 12},
@@ -169,7 +169,7 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 1,
 			Steel: 2,
 			Water: 1,
-			Unknown: 0
+			Unknown: 0 // MODIFICADO PARA PXP
 		},
 		HPivs: {atk: 30, spa: 30, spe: 30},
 		HPdvs: {atk: 14, def: 12},
@@ -194,7 +194,7 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 1,
 			Steel: 0,
 			Water: 0,
-			Unknown: 0
+			Unknown: 0 // MODIFICADO PARA PXP
 		},
 		HPivs: {hp: 30, atk: 30, def: 30, spa: 30, spd: 30},
 		HPdvs: {atk: 12, def: 13},
@@ -220,7 +220,7 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 0,
 			Steel: 0,
 			Water: 0,
-			Unknown: 0
+			Unknown: 0 // MODIFICADO PARA PXP
 		},
 		HPivs: {def: 30, spd: 30},
 		HPdvs: {atk: 13, def: 14},
@@ -246,7 +246,7 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 0,
 			Steel: 0,
 			Water: 2,
-			Unknown: 0
+			Unknown: 0 // MODIFICADO PARA PXP
 		},
 		HPivs: {atk: 30, spa: 30},
 		HPdvs: {atk: 14, def: 14},
@@ -272,7 +272,7 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 2,
 			Steel: 0,
 			Water: 1,
-			Unknown: 0
+			Unknown: 0 // MODIFICADO PARA PXP
 		},
 		HPivs: {spa: 30, spd: 30},
 		HPdvs: {atk: 12},
@@ -299,7 +299,7 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 1,
 			Steel: 1,
 			Water: 0,
-			Unknown: 0
+			Unknown: 0 // MODIFICADO PARA PXP
 		},
 		HPivs: {atk: 30, def: 30},
 		HPdvs: {def: 13},
@@ -324,7 +324,7 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 0,
 			Steel: 0,
 			Water: 0,
-			Unknown: 0
+			Unknown: 0 // MODIFICADO PARA PXP
 		},
 	},
 	poison: {
@@ -349,7 +349,7 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 0,
 			Steel: 0,
 			Water: 0,
-			Unknown: 0
+			Unknown: 0 // MODIFICADO PARA PXP
 		},
 		HPivs: {def: 30, spa: 30, spd: 30},
 		HPdvs: {atk: 12, def: 14},
@@ -374,7 +374,7 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 0,
 			Steel: 0,
 			Water: 0,
-			Unknown: 0
+			Unknown: 0 // MODIFICADO PARA PXP
 		},
 		HPivs: {atk: 30, spe: 30},
 		HPdvs: {def: 12},
@@ -400,7 +400,7 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 0,
 			Steel: 1,
 			Water: 1,
-			Unknown: 0
+			Unknown: 0 // MODIFICADO PARA PXP
 		},
 		HPivs: {def: 30, spd: 30, spe: 30},
 		HPdvs: {atk: 13, def: 12},
@@ -428,7 +428,7 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 2,
 			Steel: 2,
 			Water: 0,
-			Unknown: 0
+			Unknown: 0 // MODIFICADO PARA PXP
 		},
 		HPivs: {spd: 30},
 		HPdvs: {atk: 13},
@@ -453,11 +453,12 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 0,
 			Steel: 2,
 			Water: 2,
-			Unknown: 0
+			Unknown: 0 // MODIFICADO PARA PXP
 		},
 		HPivs: {atk: 30, def: 30, spa: 30},
 		HPdvs: {atk: 14, def: 13},
 	},
+	// MODIFICADO PARA PXP
 	unknown: {
 		damageTaken: {
 			Bug: 0,
@@ -483,4 +484,5 @@ export const TypeChart: {[k: string]: TypeData} = {
 		HPivs: {},
 		HPdvs: {},
 	}
+	// MODIFICADO PARA PXP
 };

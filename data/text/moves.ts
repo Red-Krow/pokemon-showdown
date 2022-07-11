@@ -6854,6 +6854,7 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "Nearly always goes first. Always crits.",
 		},
 	},
+	// MODIFICADO PARA PXP
 	darkthunder: {
 		name: "Dark Thunder",
 		desc: "Same effect as Double Kick",
@@ -6884,4 +6885,5 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "No additional effect",
 		shortDesc: "No additional effect"
 	}
+	// MODIFICADO PARA PXP
 };

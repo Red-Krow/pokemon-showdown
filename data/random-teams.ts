@@ -2395,10 +2395,10 @@ export class RandomTeams {
 			// Limit to one of each species (Species Clause)
 			if (baseFormes[species.baseSpecies]) continue;
 
+			if(species.isNonstandard !== 'PXP' && this.randomChance(9, 10)) continue; // MODIFICADO PARA PXP
+
 			// Adjust rate for species with multiple sets
 			// TODO: investigate automating this by searching for Pokémon with multiple sets
-			if(species.isNonstandard !== 'PKF' && this.randomChance(9, 10)) continue;
-
 			switch (species.baseSpecies) {
 			case 'Arceus': case 'Silvally':
 				if (this.randomChance(8, 9) && !isMonotype) continue;

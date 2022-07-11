@@ -83097,7 +83097,7 @@ export const Learnsets: { [speciesid: string]: LearnsetData; } = {
 			{ generation: 5, level: 47, moves: ["darkpulse", "flamethrower", "hyperbeam", "icebeam"] },
 		],
 	},
-	// MODIFICADO PARA PKFABRICA
+	// MODIFICADO PARA PXP
 	wintass: {
 		learnset: {
 			mudshot: ["8L1"],
@@ -84042,8 +84042,6 @@ export const Learnsets: { [speciesid: string]: LearnsetData; } = {
 		},
 		eventData: [{"generation":6,"level":1,"isHidden":false,"moves":["foulplay","sheercold","cottonguard","cottonspore"],"pokeball":"cherishball"}]
 	},
-	// MODIFICADO PARA PKFABRICA
-	// MODIFICADO PARA MIDELE EMERALD
 	honedgemonado: {
 		learnset: {
 			foresight: ["8L1"],
@@ -84504,5 +84502,5 @@ export const Learnsets: { [speciesid: string]: LearnsetData; } = {
 			endure: ["8T"],
 		},
 	}
-	// MODIFICADO PARA MIDELE EMERALD
+	// MODIFICADO PARA PXP
 };

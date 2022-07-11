@@ -6611,112 +6611,109 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
-	// MODIFICADO PARA PKFABRICA
+	// MODIFICADO PARA PXP
 	wintass: {
 		randomBattleMoves: ["tailglow", "icebeam", "iceshard", "machpunch", "surf", "knockoff", "gunkshot", "crosschop", "focusblast", "bulkup", "iciclecrash", "autotomize", "thunderbolt", "rockblast", "spikes", "meteormash", "hiddenpowerfighting"],
-		isNonstandard: "PKF",
-		tier: "PKF",
+		isNonstandard: "PXP",
+		tier: "PXP",
 	},
 	prinpawn: {
 		randomBattleMoves: ["return", "shadowball", "trickroom", "earthpower", "hiddenpowerfighting", "willowisp", "thunderbolt"],
-		isNonstandard: "PKF",
-	  tier: "PKF",
+		isNonstandard: "PXP",
+	  tier: "PXP",
 	},
 	coureen: {
         randomBattleMoves: ["doubleedge", "shadowball", "return", "lovelykiss", "thunderbolt", "hiddenpowerfighting", "energyball", "shadowclaw", "boomburst", "earthpower"],
-        isNonstandard: "PKF",
-      tier: "PKF",
+        isNonstandard: "PXP",
+      tier: "PXP",
     },
 	kincurs: {
 		randomBattleMoves: ["rest", "shadowclaw", "return", "rapidspin", "sleeptalk", "bulkup", "brickbreak", "foulplay"],
-		isNonstandard: "PKF",
-	  tier: "PKF",
+		isNonstandard: "PXP",
+	  tier: "PXP",
 	},
 	posord: {
 		randomBattleMoves: ["honeclaws", "shadowclaw", "ironhead", "icefang", "thunderfang", "moonlight", "rockpolish", "leafblade", "knockoff"],
-		isNonstandard: "PKF",
-	  tier: "PKF",
+		isNonstandard: "PXP",
+	  tier: "PXP",
 	},
 	toxlime: {
 		randomBattleMoves: ["stealthrock", "curse", "slackoff", "lowkick", "earthpower", "earthquake", "flamethrower", "thunderbolt", "sludgewave"],
-	   isNonstandard: "PKF",
-	  tier: "PKF",
+	   isNonstandard: "PXP",
+	  tier: "PXP",
 	},
 	toxlimeagua: {
 		randomBattleMoves: ["stealthrock", "curse", "slackoff", "lowkick", "surf", "hydropump", "flamethrower", "thunderbolt", "sludgewave"],
-	   isNonstandard: "PKF",
-	  tier: "PKF",
+	   isNonstandard: "PXP",
+	  tier: "PXP",
 	},
 	toxlimeelectrico: {
 		randomBattleMoves: ["stealthrock", "curse", "slackoff", "lowkick", "discharge", "thunderbolt", "flamethrower", "earthpower", "sludgewave"],
-		isNonstandard: "PKF",
-	  tier: "PKF",
+		isNonstandard: "PXP",
+	  tier: "PXP",
 	},
 	prabbit: {
 		randomBattleMoves: ["healbell", "recover", "psychic", "darkpulse", "wish", "protect", "encore", "icebeam", "thunderbolt", "thunderwave"],
-		isNonstandard: "PKF",
-	  tier: "PKF",
+		isNonstandard: "PXP",
+	  tier: "PXP",
 	},
 	strancloud: {
 		randomBattleMoves: ["hurricane", "thunder", "weatherball", "recover", "voltswitch", "blizzard", "hiddenpowerfire"],
-		  isNonstandard: "PKF",
-		tier: "PKF",
+		  isNonstandard: "PXP",
+		tier: "PXP",
 	  },
 	  strancloudmega: {
-		isNonstandard: "PKF",
-		 tier: "PKF",
+		isNonstandard: "PXP",
+		 tier: "PXP",
 	   },
-   
-	// MODIFICADO PARA PKFABRICA
-	// MODIFICADO PARA MIDELE EMERALD
 	darkpikachu: {
 		randomBattleMoves: ["darkthunder", "midelepower", "holareina", "nastyplot","surf","overheat"],
-		isNonstandard: "PKF",
-		tier: "PKF",
+		isNonstandard: "PXP",
+		tier: "PXP",
 	},
 	luckycamerupt: {
         randomBattleMoves: ["stealthrock", "wish", "spikes", "protect", "fleurcannon","scorchingsands","healbell", "moonblast", "watersprout"],
-          isNonstandard: "PKF",
-        tier: "PKF",
+          isNonstandard: "PXP",
+        tier: "PXP",
       },
 	luckycameruptmega: {
-		isNonstandard: "PKF",
-		tier: "PKF",
+		isNonstandard: "PXP",
+		tier: "PXP",
 	},
 
 	catermanocaterpie: {
         randomBattleMoves: ["midelepower", "tackle", "lick", "screech"],
-        isNonstandard: "PKF",
-        tier: "PKF",
+        isNonstandard: "PXP",
+        tier: "PXP",
     },
  
 	micomon: {
         randomBattleMoves: ["midelepower", "recover", "lovelykiss", "glare", "explosion", "transform", "firespin", "toxic", "metronome"],
-        isNonstandard: "PKF",
-        tier: "PKF",
+        isNonstandard: "PXP",
+        tier: "PXP",
     }, 
   
 	armoredmewtwo: {
         randomBattleMoves: ["psychic", "brutalball","energyball","nastyplot","psychoboost","flamethrower","recover","calmmind","icebeam"],
-        isNonstandard: "PKF",
-        tier: "PKF",
+        isNonstandard: "PXP",
+        tier: "PXP",
     },
   
     honedgemonado: {
         randomBattleMoves: ["extremespeed", "monadopower", "doubleedge", "leafblade", "ironhead","shadowsneak"],
-        isNonstandard: "PKF",
-        tier: "PKF",
+        isNonstandard: "PXP",
+        tier: "PXP",
     },
    
     fancyprobopass: {
         randomBattleMoves: ["midelepower", "flashcannon", "powergem", "voltswitch", "stealthrock"],
-        isNonstandard: "PKF",
-        tier: "PKF",
+        isNonstandard: "PXP",
+        tier: "PXP",
     },
 	wooloka: {
         randomBattleMoves: ["bodypress", "milkdrink", "earthquake", "doubleedge", "superpower","cottonguard"],
-        isNonstandard: "PKF",
-        tier: "PKF",
+        isNonstandard: "PXP",
+        tier: "PXP",
     },
-	// MODIFICADO PARA MIDELE EMERALD
+	// MODIFICADO PARA PXP
 };

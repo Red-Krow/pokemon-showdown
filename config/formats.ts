@@ -3893,9 +3893,9 @@ export const Formats: FormatList = [
 		battle: {trunc: Math.trunc},
 		ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Desync Clause Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
 	},
-// MODIFICADO PARA POKEFABRICA
+	// MODIFICADO PARA PXP
 	{
-		name: "[Gen 8] National Dex PKF OU",
+		name: "[Gen 8] National Dex PXP OU",
 		section: "PxP Metas",
 		mod: 'gen8',
 		ruleset: ['[Gen 8] National Dex'],
@@ -3936,7 +3936,7 @@ export const Formats: FormatList = [
 		]
 	},
 	{
-		name: "[Gen 8] National Dex PKF Random",
+		name: "[Gen 8] National Dex PXP Random",
 		section: "PxP Metas",
 		mod: 'gen8',
 		ruleset: ['[Gen 8] National Dex'],
@@ -3971,31 +3971,5 @@ export const Formats: FormatList = [
 			"Seismic Punch"
 		]
 	},
-	/*{
-		name: "POKEFABRICA UBER",
-		section: "PxP Metas",
-
-		ruleset: ['Standard', 'Swagger Clause','+PKF'],
-		banlist: ['Prinpawn + Shadow Tag + Transform', 'Prinpawn + Shadow Tag + Memento', 'Prinpawn + Shadow Tag + Final Gambit', 'Prinpawn + Shadow Tag + Rapid Spin', 'Tomohawk', 'Necturna', 'Mollux', 'Aurumoth', 'Malaconda', 'Cawmodore', 'Volkraken', 'Syclant', 'Revenankh', 'Pyroak', 'Fidgit', 'Stratagem', 'Arghonaut', 'Kitsunoh', 'Cyclohm', 'Colossoil', 'Krilowatt', 'Voodoom', 'Plasmanta', 'Naviathan']
-	},
-	
-	{
-		name: "Pokefabrica Dobles OU",
-		section: "PxP Metas",
-
-		gameType: 'doubles',
-		ruleset: ['Standard Doubles','+PKF'],
-		banlist: ['Prinpawn + Shadow Tag + Transform', 'Prinpawn + Shadow Tag + Memento', 'Prinpawn + Shadow Tag + Final Gambit', 'Prinpawn + Shadow Tag + Rapid Spin', 'Arceus', 'Dialga', 'Giratina', 'Giratina-Origin', 'Groudon', 'Ho-Oh', 'Kyogre', 'Kyurem-White', 'Lugia', 'Mewtwo',
-			'Palkia', 'Rayquaza', 'Reshiram', 'Xerneas', 'Yveltal', 'Zekrom', 'Salamencite', 'Soul Dew', 'Dark Void',
-			'Gravity ++ Grass Whistle', 'Gravity ++ Hypnosis', 'Gravity ++ Lovely Kiss', 'Gravity ++ Sing', 'Gravity ++ Sleep Powder', 'Gravity ++ Spore',  'Tomohawk', 'Necturna', 'Mollux', 'Aurumoth', 'Malaconda', 'Cawmodore', 'Volkraken', 'Syclant', 'Revenankh', 'Pyroak', 'Fidgit', 'Stratagem', 'Arghonaut', 'Kitsunoh', 'Cyclohm', 'Colossoil', 'Krilowatt', 'Voodoom', 'Plasmanta', 'Naviathan']
-	},
-	{
-		name: "Pokefabrica Dobles Uber",
-		section: "PxP Metas",
-
-		gameType: 'doubles',
-		ruleset: ['Species Clause', 'Moody Clause', 'OHKO Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Team Preview'],
-		banlist: ['+PKF', 'Prinpawn + Shadow Tag + Transform', 'Prinpawn + Shadow Tag + Memento', 'Prinpawn + Shadow Tag + Final Gambit', 'Prinpawn + Shadow Tag + Rapid Spin', 'Dark Void',  'Tomohawk', 'Necturna', 'Mollux', 'Aurumoth', 'Malaconda', 'Cawmodore', 'Volkraken', 'Syclant', 'Revenankh', 'Pyroak', 'Fidgit', 'Stratagem', 'Arghonaut', 'Kitsunoh', 'Cyclohm', 'Colossoil', 'Krilowatt', 'Voodoom', 'Plasmanta', 'Naviathan']
-	}*/
-// MODIFICADO PARA POKEFABRICA
+	// MODIFICADO PARA PXP
 ];

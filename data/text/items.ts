@@ -959,10 +959,12 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	luckypunch: {
 		name: "Lucky Punch",
+		// MODIFICADO PARA PXP
 		desc: "If held by a Ledian or Ledyba, its critical hit ratio, attack and special attack are raised by 2 stages.",
 		gen2: {
 			desc: "If held by a Ledian, its critical hit ratio is always at stage 2. (25% crit rate)",
 		},
+		// MODIFICADO PARA PXP
 	},
 	lumberry: {
 		name: "Lum Berry",
@@ -1144,7 +1146,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	nanabberry: {
 		name: "Nanab Berry",
-		desc: "If holder is a Tropius, it raises atk and spe by 1 stage. Can't be eaten.",
+		desc: "If holder is a Tropius, it raises atk and spe by 1 stage. Can't be eaten.", // MODIFICADO PARA PXP
 	},
 	nestball: {
 		name: "Nest Ball",
@@ -1681,10 +1683,12 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	stick: {
 		name: "Stick",
+		// MODIFICADO PARA PXP
 		desc: "If held by a Farfetch’d or Sirfetch'd, its critical hit ratio is raised by 2 stages. In the case of Farfetch'd, its attack and speed are also raised by one stage.",
 		gen2: {
 			desc: "If held by a Farfetch’d, its critical hit ratio is always at stage 2. (25% crit rate)",
 		},
+		// MODIFICADO PARA PXP
 	},
 	stickybarb: {
 		name: "Sticky Barb",
@@ -2343,7 +2347,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 		desc: "If held by a Venomicon, its Poison- and Flying-type attacks have 1.2x power.",
 	},
 
-	// MIDELE
+	// MODIFICADO PARA PXP
 	heartscale : {
 		name: "Heart Scale",
 		desc: "If holder is a Luvdisc, it raises def, spA and spD by 2 stages",
@@ -2396,4 +2400,5 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Soothe Bell",
 		desc: "If holder is a Wigglytuff, it raises spD and def by 1 stage",
 	},
+	// MODIFICADO PARA PXP
 };
