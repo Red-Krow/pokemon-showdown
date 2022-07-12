@@ -3725,7 +3725,6 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	floetteeternal: {
 		randomBattleMoves: ["hiddenpowerfire", "hiddenpowerground", "lightofruin", "moonblast", "psychic"],
 		randomDoubleBattleMoves: ["calmmind", "dazzlinggleam", "hiddenpowerfire", "lightofruin", "protect", "psychic"],
-		isNonstandard: "Unobtainable",
 		tier: "Illegal",
 	},
 	florges: {
